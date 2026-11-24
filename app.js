@@ -76,6 +76,7 @@
       'form.errName': 'Please enter your name or company.',
       'form.errEmail': 'Please enter a valid email address so I can reply.',
       'form.errMessage': 'Please include a short message before sending.',
+      'form.errCaptcha': 'Please complete the captcha verification before sending.',
       'form.mailtoOpened': 'Opened your email client with a pre-filled draft to arne@boedt.me.',
       'form.sentSuccess': 'Message sent. Thanks — I will get back to you directly.',
       'form.sentError': 'Could not submit the form right now. Please email arne@boedt.me directly.',
@@ -158,6 +159,7 @@
       'form.errName': 'Vul je naam of bedrijf in.',
       'form.errEmail': 'Vul een geldig e-mailadres in zodat ik kan antwoorden.',
       'form.errMessage': 'Voeg eerst een kort bericht toe.',
+      'form.errCaptcha': 'Voltooi eerst de captcha-controle.',
       'form.mailtoOpened': 'Je e-mailprogramma is geopend met een vooringevuld bericht aan arne@boedt.me.',
       'form.sentSuccess': 'Bericht verstuurd. Bedankt — ik neem rechtstreeks contact op.',
       'form.sentError': 'Versturen lukt nu niet. Mail rechtstreeks naar arne@boedt.me.',
@@ -362,6 +364,15 @@
         return;
       }
 
+      const captchaField = form.querySelector('textarea[name="h-captcha-response"]');
+      const captchaToken = captchaField ? captchaField.value.trim() : '';
+      const captchaErrEl = document.getElementById('error-captcha');
+      if (!captchaToken) {
+        if (captchaErrEl) captchaErrEl.textContent = t('form.errCaptcha');
+        return;
+      }
+      if (captchaErrEl) captchaErrEl.textContent = '';
+
       submitBtn.disabled = true;
       const labelSpan = submitBtn.querySelector('span');
       if (labelSpan) labelSpan.textContent = t('form.sending');
@@ -371,7 +382,8 @@
         email,
         message,
         subject: `Message from ${name} via boedt.me`,
-        from_name: 'boedt.me'
+        from_name: 'boedt.me',
+        'h-captcha-response': captchaToken
       };
       if (accessKey) payload.access_key = accessKey;
 
@@ -384,6 +396,7 @@
         const data = await response.json().catch(() => ({}));
         if (!response.ok || data.success === false) throw new Error('Request failed');
         form.reset();
+        if (window.hcaptcha) window.hcaptcha.reset();
         statusEl.textContent = t('form.sentSuccess');
         statusEl.classList.add('is-success');
       } catch (_) {

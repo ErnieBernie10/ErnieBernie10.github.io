@@ -929,6 +929,14 @@ h2 {
   display: none;
 }
 
+.captcha-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .submit-btn {
   width: 100%;
   border: 0;
