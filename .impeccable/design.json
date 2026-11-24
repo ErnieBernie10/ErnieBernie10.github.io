@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T15:02:00Z",
+  "title": "Design System: Arne Boedt",
+  "extensions": {
+    "colorMeta": {
+      "burgundy": {
+        "role": "primary",
+        "displayName": "Deep Burgundy",
+        "canonical": "#8B1E3A",
+        "tonalRamp": [
+          "oklch(20% 0.06 6)",
+          "oklch(29% 0.09 6)",
+          "oklch(39% 0.13 6)",
+          "oklch(48% 0.14 6)",
+          "oklch(58% 0.14 6)",
+          "oklch(70% 0.11 6)",
+          "oklch(82% 0.08 6)",
+          "oklch(94% 0.03 6)"
+        ]
+      },
+      "burgundy-hover": {
+        "role": "primary",
+        "displayName": "Burgundy Hover",
+        "canonical": "#A52647",
+        "tonalRamp": [
+          "oklch(22% 0.07 7)",
+          "oklch(32% 0.10 7)",
+          "oklch(44% 0.15 7)",
+          "oklch(54% 0.16 7)",
+          "oklch(64% 0.14 7)",
+          "oklch(74% 0.11 7)",
+          "oklch(85% 0.07 7)",
+          "oklch(95% 0.02 7)"
+        ]
+      },
+      "burgundy-tint": {
+        "role": "primary",
+        "displayName": "Burgundy Tint",
+        "canonical": "#28131B",
+        "tonalRamp": [
+          "oklch(15% 0.02 355)",
+          "oklch(21% 0.04 355)",
+          "oklch(30% 0.06 355)",
+          "oklch(42% 0.07 355)",
+          "oklch(55% 0.07 355)",
+          "oklch(70% 0.06 355)",
+          "oklch(84% 0.04 355)",
+          "oklch(95% 0.01 355)"
+        ]
+      },
+      "burgundy-border": {
+        "role": "primary",
+        "displayName": "Burgundy Seam",
+        "canonical": "#6E2338",
+        "tonalRamp": [
+          "oklch(18% 0.05 2)",
+          "oklch(27% 0.08 2)",
+          "oklch(36% 0.10 2)",
+          "oklch(46% 0.11 2)",
+          "oklch(58% 0.10 2)",
+          "oklch(71% 0.08 2)",
+          "oklch(84% 0.05 2)",
+          "oklch(94% 0.02 2)"
+        ]
+      },
+      "burgundy-text": {
+        "role": "primary",
+        "displayName": "Rose Ink",
+        "canonical": "#F0A3B6",
+        "tonalRamp": [
+          "oklch(22% 0.05 3)",
+          "oklch(34% 0.08 3)",
+          "oklch(46% 0.10 3)",
+          "oklch(58% 0.11 3)",
+          "oklch(70% 0.10 3)",
+          "oklch(79% 0.09 3)",
+          "oklch(88% 0.06 3)",
+          "oklch(96% 0.02 3)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Matte Graphite Ground",
+        "canonical": "#0F1115",
+        "tonalRamp": [
+          "oklch(14% 0.008 260)",
+          "oklch(18% 0.010 260)",
+          "oklch(26% 0.014 260)",
+          "oklch(38% 0.016 260)",
+          "oklch(52% 0.015 260)",
+          "oklch(68% 0.012 260)",
+          "oklch(83% 0.008 260)",
+          "oklch(95% 0.004 260)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Graphite Panel",
+        "canonical": "#16191F",
+        "tonalRamp": [
+          "oklch(15% 0.009 260)",
+          "oklch(21% 0.012 260)",
+          "oklch(30% 0.015 260)",
+          "oklch(42% 0.016 260)",
+          "oklch(56% 0.015 260)",
+          "oklch(71% 0.012 260)",
+          "oklch(85% 0.008 260)",
+          "oklch(95% 0.004 260)"
+        ]
+      },
+      "elevated": {
+        "role": "neutral",
+        "displayName": "Elevated Slate",
+        "canonical": "#1D212A",
+        "tonalRamp": [
+          "oklch(16% 0.010 262)",
+          "oklch(25% 0.015 262)",
+          "oklch(35% 0.018 262)",
+          "oklch(46% 0.018 262)",
+          "oklch(59% 0.016 262)",
+          "oklch(73% 0.013 262)",
+          "oklch(86% 0.008 262)",
+          "oklch(96% 0.004 262)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Recessed Input",
+        "canonical": "#111318",
+        "tonalRamp": [
+          "oklch(14% 0.008 260)",
+          "oklch(19% 0.011 260)",
+          "oklch(28% 0.014 260)",
+          "oklch(40% 0.016 260)",
+          "oklch(54% 0.015 260)",
+          "oklch(70% 0.012 260)",
+          "oklch(84% 0.008 260)",
+          "oklch(95% 0.004 260)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Cool Steel Seam",
+        "canonical": "#282D38",
+        "tonalRamp": [
+          "oklch(18% 0.012 262)",
+          "oklch(26% 0.016 262)",
+          "oklch(31% 0.019 262)",
+          "oklch(44% 0.020 262)",
+          "oklch(58% 0.018 262)",
+          "oklch(72% 0.014 262)",
+          "oklch(85% 0.009 262)",
+          "oklch(95% 0.004 262)"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Steel Seam",
+        "canonical": "#394050",
+        "tonalRamp": [
+          "oklch(20% 0.014 263)",
+          "oklch(29% 0.019 263)",
+          "oklch(38% 0.023 263)",
+          "oklch(49% 0.023 263)",
+          "oklch(62% 0.020 263)",
+          "oklch(75% 0.015 263)",
+          "oklch(87% 0.010 263)",
+          "oklch(96% 0.004 263)"
+        ]
+      },
+      "ink-bright": {
+        "role": "neutral",
+        "displayName": "Pure White Ink",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(16% 0 0)",
+          "oklch(28% 0 0)",
+          "oklch(42% 0 0)",
+          "oklch(56% 0 0)",
+          "oklch(70% 0 0)",
+          "oklch(82% 0 0)",
+          "oklch(92% 0 0)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "ink-primary": {
+        "role": "neutral",
+        "displayName": "Primary Ink",
+        "canonical": "#ECEEF2",
+        "tonalRamp": [
+          "oklch(18% 0.004 260)",
+          "oklch(30% 0.005 260)",
+          "oklch(44% 0.006 260)",
+          "oklch(58% 0.006 260)",
+          "oklch(72% 0.006 260)",
+          "oklch(84% 0.006 260)",
+          "oklch(94% 0.006 260)",
+          "oklch(98% 0.003 260)"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "canonical": "#B4BAC6",
+        "tonalRamp": [
+          "oklch(18% 0.008 262)",
+          "oklch(30% 0.011 262)",
+          "oklch(44% 0.014 262)",
+          "oklch(58% 0.015 262)",
+          "oklch(70% 0.016 262)",
+          "oklch(79% 0.015 262)",
+          "oklch(89% 0.010 262)",
+          "oklch(96% 0.004 262)"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Steel Ink",
+        "canonical": "#939AA8",
+        "tonalRamp": [
+          "oklch(18% 0.010 262)",
+          "oklch(30% 0.014 262)",
+          "oklch(44% 0.018 262)",
+          "oklch(58% 0.019 262)",
+          "oklch(68% 0.019 262)",
+          "oklch(78% 0.016 262)",
+          "oklch(88% 0.010 262)",
+          "oklch(96% 0.004 262)"
+        ]
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "Error Rose",
+        "canonical": "#F598A8",
+        "tonalRamp": [
+          "oklch(22% 0.06 8)",
+          "oklch(34% 0.09 8)",
+          "oklch(46% 0.12 8)",
+          "oklch(58% 0.13 8)",
+          "oklch(70% 0.12 8)",
+          "oklch(78% 0.11 8)",
+          "oklch(88% 0.07 8)",
+          "oklch(96% 0.02 8)"
+        ]
+      },
+      "success": {
+        "role": "semantic",
+        "displayName": "Success Mint",
+        "canonical": "#8AD6B0",
+        "tonalRamp": [
+          "oklch(22% 0.05 158)",
+          "oklch(34% 0.07 158)",
+          "oklch(46% 0.09 158)",
+          "oklch(58% 0.10 158)",
+          "oklch(70% 0.10 158)",
+          "oklch(81% 0.09 158)",
+          "oklch(90% 0.06 158)",
+          "oklch(96% 0.02 158)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Open hero headline set directly on the Matte Graphite Ground."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Primary panel section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Ledger titles, architecture node names, and submit CTA label."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "Hero introduction constrained to 60ch max line length."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default reading copy, ledger descriptions, and form input text."
+      },
+      "label": {
+        "displayName": "Mono Label",
+        "purpose": "Technical metadata, tabular counts, node roles, pill switches, and legal IDs."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Universal easing curve for all interactive color, border, opacity, and transform transitions."
+      },
+      {
+        "name": "duration-fast",
+        "value": "150ms",
+        "purpose": "Slider thumb hover scale and background feedback."
+      },
+      {
+        "name": "duration-ui",
+        "value": "180ms",
+        "purpose": "Navigation links, buttons, language pills, inputs, and inline links."
+      },
+      {
+        "name": "duration-toggle",
+        "value": "200ms",
+        "purpose": "Complexity Stripper segmented mode toggle transitions."
+      },
+      {
+        "name": "duration-node",
+        "value": "260ms",
+        "purpose": "Architecture node dimming and scale-down while stripping bloat layers."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "980px"
+      },
+      {
+        "name": "mobile",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Submit Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Full-width Deep Burgundy primary CTA used to submit the contact form.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\"><span>Send message</span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"/><polyline points=\"12 5 19 12 12 19\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; border: 0; background-color: var(--burgundy, #8B1E3A); color: #FFFFFF; border-radius: var(--radius-control, 10px); padding: 13px 18px; font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); font-weight: 700; font-size: 0.96875rem; cursor: pointer; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn-primary:hover { background-color: var(--burgundy-hover, #A52647); } .ds-btn-primary:focus-visible { outline: 2px solid var(--burgundy-text, #F0A3B6); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.65; cursor: not-allowed; } .ds-btn-primary .ds-icon { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Copy Action Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Compact burgundy-seamed utility button nested inside the direct email row.",
+      "html": "<button type=\"button\" class=\"ds-btn-copy\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"/><path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"/></svg><span>Copy</span></button>",
+      "css": ".ds-btn-copy { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--burgundy-border, #6E2338); background-color: var(--bg-panel, #16191F); color: var(--text-primary, #ECEEF2); border-radius: 8px; padding: 6px 10px; font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); font-size: 0.8125rem; font-weight: 500; cursor: pointer; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn-copy:hover { background-color: var(--burgundy, #8B1E3A); border-color: var(--burgundy, #8B1E3A); color: #FFFFFF; } .ds-btn-copy:focus-visible { outline: 2px solid var(--burgundy-text, #F0A3B6); outline-offset: 2px; } .ds-btn-copy .ds-icon { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Segmented Mode Pill",
+      "kind": "button",
+      "refersTo": "pill-active",
+      "description": "Two-state pill toggle on a matte graphite trough used for architecture view and EN/NL switching.",
+      "html": "<div class=\"ds-mode-toggle\" role=\"group\" aria-label=\"Architecture view\"><button type=\"button\" class=\"ds-mode-btn\">Usual pitch</button><button type=\"button\" class=\"ds-mode-btn ds-is-active\" aria-pressed=\"true\">KISS reality</button></div>",
+      "css": ".ds-mode-toggle { display: inline-flex; align-items: center; background-color: var(--bg-ground, #0F1115); border: 1px solid var(--border-strong, #394050); border-radius: var(--radius-pill, 999px); padding: 4px; gap: 4px; } .ds-mode-btn { border: 0; background: transparent; color: var(--text-secondary, #B4BAC6); padding: 7px 14px; border-radius: var(--radius-pill, 999px); font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); font-size: 0.84375rem; font-weight: 600; cursor: pointer; transition: background-color 200ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 200ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-mode-btn:hover { color: #FFFFFF; } .ds-mode-btn.ds-is-active { background-color: var(--burgundy, #8B1E3A); color: #FFFFFF; } .ds-mode-btn:focus-visible { outline: 2px solid var(--burgundy-text, #F0A3B6); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-default",
+      "description": "Recessed graphite form field with strong-steel rest border and Rose Ink focus treatment.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-email\">Email</label><input id=\"ds-email\" class=\"ds-input\" type=\"email\" placeholder=\"you@company.eu\"></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); } .ds-label { font-size: 0.84375rem; font-weight: 600; color: var(--text-primary, #ECEEF2); } .ds-input { width: 100%; background-color: var(--bg-input, #111318); border: 1px solid var(--border-strong, #394050); border-radius: var(--radius-control, 10px); padding: 11px 13px; font-size: 0.9375rem; color: var(--text-primary, #ECEEF2); caret-color: var(--burgundy-text, #F0A3B6); transition: border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-input::placeholder { color: var(--text-muted, #939AA8); } .ds-input:hover { border-color: #525B6E; } .ds-input:focus { border-color: var(--burgundy-text, #F0A3B6); background-color: #0D0F13; } .ds-input:focus-visible { outline: 2px solid var(--burgundy-text, #F0A3B6); outline-offset: 2px; }"
+    },
+    {
+      "name": "Topbar Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "External profile link in the top bar pairing a 17px stroke SVG with Secondary Ink label.",
+      "html": "<a href=\"#\" class=\"ds-nav-link\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><line x1=\"9\" y1=\"15\" x2=\"15\" y2=\"15\"/></svg><span>RDPilot</span></a>",
+      "css": ".ds-nav-link { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: var(--radius-control, 10px); font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); font-size: 0.875rem; font-weight: 500; color: var(--text-secondary, #B4BAC6); text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-nav-link:hover { background-color: var(--bg-elevated, #1D212A); color: #FFFFFF; } .ds-nav-link:focus-visible { outline: 2px solid var(--burgundy-text, #F0A3B6); outline-offset: 2px; } .ds-nav-link .ds-icon { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Stripped Layer Chip",
+      "kind": "chip",
+      "refersTo": "chip-stripped",
+      "description": "Monospace pill with Rose Ink strikethrough recording a buzzword layer removed by the Complexity Stripper.",
+      "html": "<div class=\"ds-chip-row\"><span class=\"ds-tray-chip\">Micro-Frontends</span><span class=\"ds-parts-count\">4 load-bearing parts</span></div>",
+      "css": ".ds-chip-row { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; } .ds-tray-chip { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.72rem; color: var(--text-muted, #939AA8); background-color: var(--bg-panel, #16191F); border: 1px solid var(--border, #282D38); border-radius: var(--radius-pill, 999px); padding: 3px 10px; text-decoration: line-through; text-decoration-color: var(--burgundy-text, #F0A3B6); } .ds-parts-count { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.8125rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--burgundy-text, #F0A3B6); background-color: var(--burgundy-tint, #28131B); border: 1px solid var(--burgundy-border, #6E2338); border-radius: var(--radius-pill, 999px); padding: 4px 12px; }"
+    },
+    {
+      "name": "Graphite Panel",
+      "kind": "card",
+      "refersTo": "panel-default",
+      "description": "Flat 16px-rounded container with a 1px Cool Steel Seam used for every major workbench module.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-heading\">Work &amp; background</h2><p class=\"ds-panel-body\">Long-term full-stack development across .NET applications, web frontends, DevOps, and server infrastructure.</p></section>",
+      "css": ".ds-panel { background-color: var(--bg-panel, #16191F); border: 1px solid var(--border, #282D38); border-radius: var(--radius-panel, 16px); padding: 28px 30px; font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); } .ds-panel-heading { margin: 0 0 10px; font-size: 1.375rem; font-weight: 700; letter-spacing: -0.015em; color: #FFFFFF; } .ds-panel-body { margin: 0; font-size: 0.9375rem; line-height: 1.55; color: var(--text-secondary, #B4BAC6); }"
+    },
+    {
+      "name": "Architecture Nodes (Core vs Bloat)",
+      "kind": "custom",
+      "refersTo": "panel-default",
+      "description": "Signature Complexity Stripper stage pairing solid burgundy-tinted core nodes against dashed graphite bloat nodes on a 20px dot grid.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-node ds-node-core\"><span class=\"ds-node-role\">Backend</span><strong class=\"ds-node-name\">.NET &middot; C# &middot; APIs</strong><span class=\"ds-node-note\">One clear, maintainable codebase</span></div><div class=\"ds-node ds-node-bloat\"><span class=\"ds-node-role\">Extra layer</span><strong class=\"ds-node-name\">12 Microservices</strong><span class=\"ds-node-note\">Distributed monolith headaches</span></div></div>",
+      "css": ".ds-stage { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; background-color: #111318; background-image: radial-gradient(rgba(147, 154, 168, 0.22) 1px, transparent 1px); background-size: 20px 20px; border: 1px solid var(--border, #282D38); border-radius: 14px; padding: 16px; font-family: var(--font-sans, 'Hanken Grotesk', sans-serif); } .ds-node { border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; } .ds-node-core { background-color: var(--burgundy-tint, #28131B); border: 1px solid var(--burgundy-border, #6E2338); } .ds-node-bloat { background-color: rgba(22, 25, 31, 0.88); border: 1px dashed var(--border-strong, #394050); } .ds-node-role { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 0.72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; color: var(--burgundy-text, #F0A3B6); } .ds-node-bloat .ds-node-role { color: var(--text-muted, #939AA8); } .ds-node-name { font-size: 0.96875rem; font-weight: 700; color: #FFFFFF; } .ds-node-bloat .ds-node-name { color: var(--text-secondary, #B4BAC6); } .ds-node-note { font-size: 0.84375rem; color: var(--text-secondary, #B4BAC6); } .ds-node-bloat .ds-node-note { color: var(--text-muted, #939AA8); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Graphite & Burgundy Workbench",
+    "overview": "This visual system translates a pragmatic, KISS (\"Keep It Simple, Stupid\") full-stack engineering mindset into a calm, dark-first workbench. Rather than mimicking a glossy SaaS landing page or a stiff resume, surfaces sit in deep matte graphite with crisp cool-steel seams and generous rounded geometry, letting plain-spoken typography and interactive engineering proof carry the page.\n\nRich burgundy is the system's sole chromatic voice. It stays disciplined—marking active toggle states, the primary contact action, core architecture nodes, inline links, and keyboard focus rings—so every colored element signals either direct action or load-bearing meaning. Zero white ground, zero parchment, and zero gold appear anywhere in the system.",
+    "keyCharacteristics": [
+      "Dark-first matte graphite surfaces stepped through tonal elevation rather than drop shadows.",
+      "Single disciplined burgundy accent family across fills, tints, borders, and light rose ink.",
+      "Self-hosted Hanken Grotesk paired with JetBrains Mono for technical metadata, addresses, and tabular counts.",
+      "Flat architectural precision softened by generous rounded radii (16px panels, 10px controls, 999px pills).",
+      "Fast, restrained motion using an exponential ease-out curve (150ms–260ms) that collapses cleanly under reduced-motion preferences."
+    ],
+    "rules": [
+      {
+        "name": "The Single-Accent Discipline Rule",
+        "body": "Burgundy is the only chromatic accent in the system; reserve solid Deep Burgundy (#8B1E3A) strictly for active toggle states and primary actions, and use Burgundy Tint (#28131B) plus Rose Ink (#F0A3B6) for secondary emphasis so the accent never saturates the dark canvas.",
+        "section": "colors"
+      },
+      {
+        "name": "The Dark-Ground Invariant",
+        "body": "Never introduce white, off-white, parchment, or gold surfaces; all elevation steps stay within the #0F1115–#1D212A cool-graphite ladder.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono-For-Metadata Rule",
+        "body": "Use JetBrains Mono only for technical identifiers, tabular counts, email/profile handles, and compact interactive controls—never for multi-sentence body prose.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open-Hero Rule",
+        "body": "Set the primary display headline and lead directly on the Matte Graphite Ground (#0F1115) without wrapping them in a card or adding an eyebrow kicker above the headline.",
+        "section": "typography"
+      },
+      {
+        "name": "The Zero-Shadow Rule",
+        "body": "Never add drop shadows, ambient glows, or glass blur to panels, buttons, or inputs; communicate surface separation solely through tonal graphite steps and 1px steel or burgundy seams.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do step surfaces strictly through the cool-graphite ladder (#0F1115, #111318, #16191F, #1D212A) separated by 1px cool-steel seams (#282D38 / #394050).",
+      "Do keep Burgundy (#8B1E3A / #A52647 / #28131B / #F0A3B6) as the sole chromatic accent for active states, primary actions, core diagram emphasis, inline links, and focus rings.",
+      "Do self-host Hanken Grotesk and JetBrains Mono and apply font-variant-numeric: tabular-nums to all numeric counters, durations, and business IDs.",
+      "Do keep radii nested proportionally (16px panel -> 14px stage -> 12px node -> 10px control -> 8px nested utility button) and use 999px for pills and chips.",
+      "Do use crisp 1.75px-stroke inline SVGs (15px–17px) for icons and honor prefers-reduced-motion: reduce by collapsing transitions and smooth scrolling."
+    ],
+    "donts": [
+      "Don't introduce white, cream, parchment, or gold backgrounds, accents, or borders anywhere in the system.",
+      "Don't add drop shadows, neon glows, or glassmorphism blur to cards, buttons, or inputs; this system is flat by design.",
+      "Don't wrap the open hero display headline in a card or add eyebrow kickers above section headings.",
+      "Don't use JetBrains Mono for body paragraphs or prose descriptions; reserve it for metadata, handles, IDs, and compact technical labels.",
+      "Don't replace solid-vs-dashed border semantics inside architecture diagrams with decorative multi-color badges or rainbow status pills."
+    ]
+  }
+}
